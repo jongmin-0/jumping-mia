@@ -51,9 +51,9 @@ export default function Header() {
         <Link 
           href="#home" 
           onClick={(e) => scrollToSection(e, "#home")}
-          className="flex items-center gap-2"
+          className="text-2xl font-black uppercase text-brand tracking-tighter"
         >
-          <Image src="/logo.png" alt="점핑머신 로고" width={160} height={40} className="object-contain bg-white rounded flex-shrink-0" />
+          JUMPINGMACHINE <span className="text-white">MIA</span>
         </Link>
 
         {/* Desktop Nav */}

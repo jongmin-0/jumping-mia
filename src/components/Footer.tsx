@@ -11,7 +11,7 @@ export default function Footer() {
           
           <div className="text-center md:text-left">
             <Link href="#home" className="text-2xl font-black uppercase text-brand tracking-tighter mb-2 inline-block">
-              Jumping<span className="text-white">Mia</span>
+              JUMPINGMACHINE <span className="text-white">MIA</span>
             </Link>
             <p className="text-gray-500 text-sm">
               상호: 점핑머신 미아점 | 대표: 최수현 <br/>
