@@ -49,7 +49,7 @@ export default function Contact() {
                   <h4 className="text-2xl font-bold text-white mb-2">카카오톡 실시간 상담</h4>
                   <p className="text-gray-400 mb-6">궁금한 점이 있으신가요? 카카오톡으로 언제든 문의주세요!</p>
                   <a
-                    href="#"
+                    href="https://pf.kakao.com/_xdyrwn"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-3 bg-[#FAE100] text-black font-bold py-4 px-8 rounded-full hover:bg-yellow-400 transition-colors shadow-lg shadow-[#FAE100]/20"
