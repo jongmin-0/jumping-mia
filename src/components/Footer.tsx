@@ -14,9 +14,9 @@ export default function Footer() {
               Jumping<span className="text-white">Mia</span>
             </Link>
             <p className="text-gray-500 text-sm">
-              상호: 점핑머신 미아점 | 대표: OOO <br/>
-              주소: 서울특별시 강북구 미아동 xxx-xx <br/>
-              사업자등록번호: 000-00-00000 | 대표전화: 02-XXX-XXXX
+              상호: 점핑머신 미아점 | 대표: 최수현 <br/>
+              주소: 서울특별시 강북구 도봉로 191 지층 <br/>
+              대표전화: 010-9122-2112
             </p>
           </div>
 

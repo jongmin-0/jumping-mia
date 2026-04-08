@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import clsx from "clsx";
 
 const navItems = [
@@ -50,9 +51,9 @@ export default function Header() {
         <Link 
           href="#home" 
           onClick={(e) => scrollToSection(e, "#home")}
-          className="text-2xl font-black uppercase text-brand tracking-tighter"
+          className="flex items-center gap-2"
         >
-          Jumping<span className="text-white">Mia</span>
+          <Image src="/logo.png" alt="점핑머신 로고" width={160} height={40} className="object-contain bg-white rounded flex-shrink-0" />
         </Link>
 
         {/* Desktop Nav */}

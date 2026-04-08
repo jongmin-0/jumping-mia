@@ -19,12 +19,14 @@ export default function Gallery() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {[1, 2, 3].map((item, idx) => (
+          {[1, 2, 3].map((item, idx) => {
+            const images = ['/gallery1.jpg', '/gallery2.jpg', '/hero.jpg']
+            return (
             <FadeIn key={idx} delay={idx * 0.2} direction="up" className={idx === 0 ? "md:col-span-2 lg:col-span-2 row-span-2" : ""}>
               <div className="relative group overflow-hidden rounded-3xl bg-surface border border-white/5 aspect-square md:aspect-auto md:h-full min-h-[300px]">
                 <div 
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
-                  style={{ backgroundImage: `url(${idx === 0 ? '/hero-bg.png' : '/gallery-bg.png'})` }}
+                  style={{ backgroundImage: `url(${images[idx]})` }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-darker/90 via-darker/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-300" />
                 <div className="absolute bottom-6 left-6 right-6 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
@@ -33,7 +35,8 @@ export default function Gallery() {
                 </div>
               </div>
             </FadeIn>
-          ))}
+            )
+          })}
         </div>
       </div>
     </section>

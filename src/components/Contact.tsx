@@ -25,7 +25,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-white font-bold text-lg mb-1">센터 주소</h4>
-                    <p className="text-gray-400">서울특별시 강북구 미아동 xxx-xx (점핑머신 미아점)</p>
+                    <p className="text-gray-400">서울특별시 강북구 도봉로 191 지층</p>
                   </div>
                 </div>
 
@@ -35,7 +35,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-white font-bold text-lg mb-1">전화번호</h4>
-                    <p className="text-gray-400">02-XXX-XXXX</p>
+                    <p className="text-gray-400">010-9122-2112</p>
                   </div>
                 </div>
               </div>
