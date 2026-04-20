@@ -20,7 +20,7 @@ export default function Gallery() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[1, 2, 3].map((item, idx) => {
-            const images = ['/gallery1.jpg', '/gallery2.jpg', '/hero.jpg']
+            const images = ['/gallery-1.jpg', '/gallery-2.jpg', '/hero-main.jpg']
             return (
             <FadeIn key={idx} delay={idx * 0.2} direction="up" className={idx === 0 ? "md:col-span-2 lg:col-span-2 row-span-2" : ""}>
               <div className="relative group overflow-hidden rounded-3xl bg-surface border border-white/5 aspect-square md:aspect-auto md:h-full min-h-[300px]">

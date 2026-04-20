@@ -59,16 +59,26 @@ export default function Program() {
               
               <div className="space-y-6">
                 <div className="bg-surface p-6 rounded-2xl">
-                  <h4 className="text-brand font-bold mb-2 uppercase text-sm tracking-wider">Morning Class 오전반</h4>
-                  <p className="text-xl text-white font-medium">AM 10:00 ~ 10:45</p>
+                  <h4 className="text-brand font-bold mb-4 uppercase text-sm tracking-wider">월, 화, 수, 목</h4>
+                  <ul className="text-lg text-white font-medium space-y-3">
+                    <li className="flex justify-between border-b border-white/5 pb-2">
+                      <span className="text-gray-400">오전 수업</span> 
+                      <span>AM 10:00 ~ 10:45</span>
+                    </li>
+                    <li className="flex justify-between pt-1">
+                      <span className="text-gray-400">오후 수업</span> 
+                      <span>PM 08:00 ~ 08:45</span>
+                    </li>
+                  </ul>
                 </div>
                 
                 <div className="bg-surface p-6 rounded-2xl">
-                  <h4 className="text-brand font-bold mb-2 uppercase text-sm tracking-wider">Evening Class 오후반</h4>
-                  <ul className="text-xl text-white font-medium space-y-2">
-                    <li>PM 07:00 ~ 07:45</li>
-                    <li>PM 08:00 ~ 08:45</li>
-                    <li>PM 09:00 ~ 09:45</li>
+                  <h4 className="text-brand font-bold mb-4 uppercase text-sm tracking-wider">화, 목 (추가 수업)</h4>
+                  <ul className="text-lg text-white font-medium space-y-3">
+                    <li className="flex justify-between">
+                      <span className="text-gray-400">오후 수업</span> 
+                      <span>PM 07:00 ~ 07:45</span>
+                    </li>
                   </ul>
                 </div>
 

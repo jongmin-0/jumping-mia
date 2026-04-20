@@ -16,7 +16,7 @@ export default function Hero() {
       {/* Background Image Overlay */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/hero.jpg')" }}
+        style={{ backgroundImage: "url('/gallery-1.jpg')" }}
       >
         <div className="absolute inset-0 bg-gradient-to-t from-darker via-darker/60 to-darker/80" />
       </div>
