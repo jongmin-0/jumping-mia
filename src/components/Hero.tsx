@@ -31,7 +31,7 @@ export default function Hero() {
         <FadeIn delay={0.2} direction="up">
           <p className="text-lg md:text-2xl text-gray-300 mb-10 font-medium max-w-2xl mx-auto drop-shadow-md">
             강북구 최고 시설, 미아동 최고의 다이어트 공간.<br className="hidden md:block" /> 
-            스트레스는 날리고 체지방은 불태우는 45분의 기적
+            스트레스는 날리고 체지방은 불태우는 50분의 기적
           </p>
         </FadeIn>
 
