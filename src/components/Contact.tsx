@@ -64,14 +64,29 @@ export default function Contact() {
 
           {/* Map Area */}
           <FadeIn direction="left">
-            <div className="bg-surface rounded-3xl p-4 border border-white/5 shadow-2xl h-[500px] w-full flex items-center justify-center relative overflow-hidden">
-              {/* This is a placeholder for actual map like Kakao or Google. */}
-              <div className="absolute inset-0 bg-darker/50 z-10 flex flex-col items-center justify-center">
-                <MapPin className="w-12 h-12 text-brand mb-4 opacity-50" />
-                <p className="text-gray-500 font-medium">지도 API 연동 영역 (예: Kakao Maps)</p>
+            <a 
+              href="https://map.kakao.com/?rt=,,505749.034502935,1146158.3007205522&rt2=%EC%A0%90%ED%95%91%EB%A8%B8%EC%8B%A0%20%EB%AF%B8%EC%95%84%EC%A0%90"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-surface rounded-3xl p-4 border border-white/5 shadow-2xl h-[500px] w-full flex flex-col items-center justify-center relative overflow-hidden group hover:border-brand/40 transition-colors block"
+            >
+              <div className="absolute inset-0 bg-darker/60 z-0 transition-opacity group-hover:opacity-40" />
+              <div className="relative z-10 flex flex-col items-center justify-center">
+                <div className="w-24 h-24 bg-brand/10 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand/20 transition-all">
+                  <MapPin className="w-12 h-12 text-[#FAE100]" />
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-3">점핑머신 미아점 오시는 길</h3>
+                <p className="text-gray-400 font-medium mb-10 text-center leading-relaxed">
+                  초행길도 헤매지 마세요!<br/>
+                  <strong>카카오맵</strong>으로 가장 정확하고 빠른<br/>
+                  길 안내를 도와드립니다.
+                </p>
+                <div className="inline-flex items-center gap-2 bg-[#FAE100] text-black font-bold py-4 px-8 rounded-full hover:bg-yellow-400 hover:scale-105 active:scale-95 transition-all shadow-lg shadow-[#FAE100]/20">
+                  <MapPin className="w-5 h-5 fill-black" />
+                  카카오맵 길찾기
+                </div>
               </div>
-              {/* Optional: Static map image could be placed here if API is not yet ready */}
-            </div>
+            </a>
           </FadeIn>
 
         </div>

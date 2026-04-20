@@ -63,11 +63,11 @@ export default function Program() {
                   <ul className="text-lg text-white font-medium space-y-3">
                     <li className="flex justify-between border-b border-white/5 pb-2">
                       <span className="text-gray-400">오전 수업</span> 
-                      <span>AM 10:00 ~ 10:45</span>
+                      <span>AM 10:00 ~ 10:50</span>
                     </li>
                     <li className="flex justify-between pt-1">
                       <span className="text-gray-400">오후 수업</span> 
-                      <span>PM 08:00 ~ 08:45</span>
+                      <span>PM 08:00 ~ 08:50</span>
                     </li>
                   </ul>
                 </div>
@@ -77,7 +77,7 @@ export default function Program() {
                   <ul className="text-lg text-white font-medium space-y-3">
                     <li className="flex justify-between">
                       <span className="text-gray-400">오후 수업</span> 
-                      <span>PM 07:00 ~ 07:45</span>
+                      <span>PM 06:50 ~ 07:40</span>
                     </li>
                   </ul>
                 </div>
