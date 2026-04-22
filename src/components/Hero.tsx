@@ -36,13 +36,23 @@ export default function Hero() {
         </FadeIn>
 
         <FadeIn delay={0.4} direction="up">
-          <a
-            href="#contact"
-            onClick={scrollToContact}
-            className="inline-flex items-center justify-center px-10 py-5 text-xl font-bold rounded-full bg-brand text-dark hover:bg-brand-light transition-all hover:scale-105 active:scale-95 shadow-[0_0_30px_rgba(217,249,93,0.3)] hover:shadow-[0_0_40px_rgba(217,249,93,0.5)]"
-          >
-            카카오톡 상담하기
-          </a>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a
+              href="https://map.naver.com/p/entry/place/1867307982?placePath=/home?entry=plt&from=map&fromPanelNum=1&additionalHeight=76&timestamp=202604221122&locale=ko&svcName=map_pcv5&searchType=place&lng=127.0261272&lat=37.6258196&c=15.00,0,0,0,dh"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-10 py-5 text-xl font-bold rounded-full bg-[#03C75A] text-white hover:bg-[#02b351] transition-all hover:scale-105 active:scale-95 shadow-[0_0_30px_rgba(3,199,90,0.3)] hover:shadow-[0_0_40px_rgba(3,199,90,0.5)] w-full sm:w-auto"
+            >
+              체험 수업 예약/신청
+            </a>
+            <a
+              href="#contact"
+              onClick={scrollToContact}
+              className="inline-flex items-center justify-center px-10 py-5 text-xl font-bold rounded-full bg-brand text-dark hover:bg-brand-light transition-all hover:scale-105 active:scale-95 shadow-[0_0_30px_rgba(217,249,93,0.3)] hover:shadow-[0_0_40px_rgba(217,249,93,0.5)] w-full sm:w-auto"
+            >
+              카카오톡 상담하기
+            </a>
+          </div>
         </FadeIn>
       </div>
 

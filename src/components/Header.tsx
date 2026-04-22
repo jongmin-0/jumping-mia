@@ -68,13 +68,23 @@ export default function Header() {
               {item.name}
             </Link>
           ))}
-          <a
-            href="#contact"
-            onClick={(e) => scrollToSection(e, "#contact")}
-            className="px-5 py-2.5 rounded-full bg-brand text-dark font-bold text-sm hover:bg-brand-light transition-colors transform hover:scale-105 duration-200"
-          >
-            상담하기
-          </a>
+          <div className="flex items-center gap-3">
+            <a
+              href="https://map.naver.com/p/entry/place/1867307982?placePath=/home?entry=plt&from=map&fromPanelNum=1&additionalHeight=76&timestamp=202604221122&locale=ko&svcName=map_pcv5&searchType=place&lng=127.0261272&lat=37.6258196&c=15.00,0,0,0,dh"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-5 py-2.5 rounded-full bg-[#03C75A] text-white font-bold text-sm hover:bg-[#02b351] transition-colors transform hover:scale-105 duration-200"
+            >
+              체험 예약
+            </a>
+            <a
+              href="#contact"
+              onClick={(e) => scrollToSection(e, "#contact")}
+              className="px-5 py-2.5 rounded-full bg-brand text-dark font-bold text-sm hover:bg-brand-light transition-colors transform hover:scale-105 duration-200"
+            >
+              상담하기
+            </a>
+          </div>
         </nav>
 
         {/* Mobile Toggle */}
@@ -105,9 +115,17 @@ export default function Header() {
             </Link>
           ))}
           <a
+            href="https://map.naver.com/p/entry/place/1867307982?placePath=/home?entry=plt&from=map&fromPanelNum=1&additionalHeight=76&timestamp=202604221122&locale=ko&svcName=map_pcv5&searchType=place&lng=127.0261272&lat=37.6258196&c=15.00,0,0,0,dh"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-[80%] text-center py-3 rounded-full bg-[#03C75A] text-white font-bold text-lg mt-4"
+          >
+            체험 수업 예약/신청
+          </a>
+          <a
             href="#contact"
             onClick={(e) => scrollToSection(e, "#contact")}
-            className="w-[80%] text-center py-3 rounded-full bg-brand text-dark font-bold text-lg mt-2"
+            className="w-[80%] text-center py-3 rounded-full bg-brand text-dark font-bold text-lg"
           >
             카카오톡 상담하기
           </a>
