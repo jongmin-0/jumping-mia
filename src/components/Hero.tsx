@@ -3,13 +3,7 @@
 import FadeIn from "./ui/FadeIn";
 
 export default function Hero() {
-  const scrollToContact = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault();
-    const contact = document.querySelector("#contact");
-    if (contact) {
-      window.scrollTo({ top: contact.getBoundingClientRect().top + window.scrollY - 80, behavior: "smooth" });
-    }
-  };
+
 
   return (
     <section id="home" className="relative h-[90vh] min-h-[600px] flex items-center justify-center overflow-hidden">
@@ -38,16 +32,17 @@ export default function Hero() {
         <FadeIn delay={0.4} direction="up">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://map.naver.com/p/entry/place/1867307982?placePath=/home?entry=plt&from=map&fromPanelNum=1&additionalHeight=76&timestamp=202604221122&locale=ko&svcName=map_pcv5&searchType=place&lng=127.0261272&lat=37.6258196&c=15.00,0,0,0,dh"
+              href="https://map.naver.com/p/entry/place/1867307982?placePath=%2Fbooking%3Fentry%3Dpll%26from%3Dnx%26fromNxList%3Dtrue&placeSearchOption=entry%3Dpll%26fromNxList%3Dtrue&searchType=place&c=15.00,0,0,0,dh"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-10 py-5 text-xl font-bold rounded-full bg-[#03C75A] text-white hover:bg-[#02b351] transition-all hover:scale-105 active:scale-95 shadow-[0_0_30px_rgba(3,199,90,0.3)] hover:shadow-[0_0_40px_rgba(3,199,90,0.5)] w-full sm:w-auto"
             >
-              체험 수업 예약/신청
+              체험수업 예약/신청
             </a>
             <a
-              href="#contact"
-              onClick={scrollToContact}
+              href="https://pf.kakao.com/_xdyrwn/chat"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-10 py-5 text-xl font-bold rounded-full bg-brand text-dark hover:bg-brand-light transition-all hover:scale-105 active:scale-95 shadow-[0_0_30px_rgba(217,249,93,0.3)] hover:shadow-[0_0_40px_rgba(217,249,93,0.5)] w-full sm:w-auto"
             >
               카카오톡 상담하기
