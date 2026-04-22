@@ -1,7 +1,6 @@
 "use client";
 
 import FadeIn from "./ui/FadeIn";
-import Image from "next/image";
 
 export default function Gallery() {
   return (
