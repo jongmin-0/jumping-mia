@@ -12,7 +12,7 @@ const features = [
   {
     icon: <Flame className="w-10 h-10 text-brand" />,
     title: "시간당 1,000kcal 소모",
-    description: "단 45분 수업만으로도 땀샘이 폭발하는 엄청난 칼로리 소모를 경험할 수 있습니다."
+    description: "단 50분 수업만으로도 땀샘이 폭발하는 엄청난 칼로리 소모를 경험할 수 있습니다."
   },
   {
     icon: <Heart className="w-10 h-10 text-brand" />,
